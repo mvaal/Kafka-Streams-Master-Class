@@ -1,4 +1,4 @@
-.PHONY: all start-zookeeper start-kafka-0 start-kafka-1 start-kafka-2 create-topic describe-topic run-storage-demo
+.PHONY: all start-zookeeper start-kafka-0 start-kafka-1 start-kafka-2 create-topic consumer-start
 
 start-zookeeper:
 	cd scripts && ./zookeeper-start.sh
@@ -15,8 +15,5 @@ start-kafka-2:
 create-topic:
 	cd scripts && ./topic-create.sh
 
-describe-topic:
-	cd scripts && ./describe-topic.sh
-
-run-storage-demo:
-	mvn exec:java -Dexec.mainClass=guru.learningjournal.kafka.examples.StorageDemo
+consumer-start:
+	cd scripts && ./consumer-start.sh

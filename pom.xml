@@ -9,5 +9,6 @@
 
     <modules>
         <module>01-storage-demo</module>
+        <module>02-hello-producer</module>
     </modules>
 </project>
