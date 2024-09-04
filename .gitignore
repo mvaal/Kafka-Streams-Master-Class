@@ -2,6 +2,9 @@
 */.idea/*
 */*.iml
 
+# Leave 00-kafka23 directory
+*00-kafka23*
+
 # Leave kafka_logs and zookeeper_data and state store
 *kafka_logs*
 *zookeeper_data*
@@ -10,3 +13,6 @@
 
 # Leave target directory
 */target/*
+
+# Leave tmp directory
+*/tmp/*
