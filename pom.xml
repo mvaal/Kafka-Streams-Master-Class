@@ -10,5 +10,6 @@
     <modules>
         <module>01-storage-demo</module>
         <module>02-hello-producer</module>
+        <module>03-multi-threading</module>
     </modules>
 </project>
