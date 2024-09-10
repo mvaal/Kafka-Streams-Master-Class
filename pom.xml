@@ -20,6 +20,7 @@
         <module>03-multi-threading</module>
         <module>04-transactional-producer</module>
         <module>05-pos-simulator</module>
+        <module>09-pos-validator</module>
     </modules>
 
     <build>
